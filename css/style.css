@@ -8,6 +8,8 @@
     --bg-color: #1b1b1b;
     --cor-principal: #3964c8;
     --cor-secundária: #fff;
+    --cor-hover-botoes: #153788;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -25,6 +27,7 @@ body {
     right: 0;
     top: 0;
     background-color: var(--bg-color);
+    z-index: 1;
 }
 
 #ul-nav-header {
@@ -57,9 +60,12 @@ body {
 
 #section-inicio {
     text-align: center;
-    border-bottom: 1px solid var(--cor-principal);
-    padding-bottom: 6em;
-    margin-top: 6em;
+    /* border-bottom: 1px solid var(--cor-principal); */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #nome-e-foto {
@@ -70,22 +76,22 @@ body {
 
 .nome {
     color: var(--cor-secundária);
-    font-size: 5em;
+    font-size: 8em;
     text-transform: uppercase;
     font-weight: bold;
 }
 
 #foto-sec-inicio {
-    width: 350px;
+    width: 450px;
 }
 
 #paragrafo-sec-inicio {
     color: var(--cor-secundária);
-    font-size: 1.5em;
+    font-size: 1.8em;
     width: 750px;
-    margin: 0 auto 1.5em;
+    margin: 1em auto 1.5em;
     font-weight: bold;
-    letter-spacing: .5px;
+    letter-spacing: 1px;
 }
 
 .paragrafo-colorido {
@@ -99,8 +105,14 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 5px;
+    font-size: 1.5em;
     padding: .6em 4em;
-    box-shadow: 10px 10px 44px -12px rgba(255, 255, 255, 0.555);
+    box-shadow: 5px 5px 44px -12px rgba(255, 255, 255, 0.418);
+    transition: .5s ease;
+}
+#link-saber-mais:hover {
+    background-color: var(--cor-hover-botoes);
+    scale: 1.05;
 }
 
 #section-apresentando {
@@ -109,23 +121,23 @@ body {
     align-items: center;
     gap: 5em;
     margin: 3em 0;
-    padding: 4em 0 8em;
-    border-bottom: 1px solid var(--cor-principal);
+    padding: 0em 0 8em;
+    /* border-bottom: 1px solid var(--cor-principal); */
 }
 
 #sec-apresentando-sub-parag-botao {
-    width: 400px;
+    width: 500px;
 }
 
 #sec-apresentando-subtitulo {
     color: var(--cor-principal);
-    font-size: 2.5em;
+    font-size: 4em;
 }
 
 #sec-apresentando-paragrafo {
     color: var(--cor-secundária);
-    font-size: 1.1em;
-    letter-spacing: .5px;
+    font-size: 1.5em;
+    letter-spacing: .8px;
     line-height: 1.2em;
     margin: .8em 0 2em;
 }
@@ -137,22 +149,28 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 5px;
-    padding: .8em 4em;
-    box-shadow: 10px 10px 44px -12px rgba(255, 255, 255, 0.555);
+    padding: 1.3em 4em;
+    box-shadow: 5px 5px 44px -12px rgba(255, 255, 255, 0.418);
     display: block;
     text-align: center;
     width: 100%;
+    transition: .5s ease;
+}
+#link-whatsapp:hover {
+    background-color: var(--cor-hover-botoes);
+    /* scale: 1.05; */
 }
 
 #sec-apresentando-imagens {
-    width: 300px;
+    width: 400px;
     text-align: center;
 }
 
 .icones-sec-apresentando {
-    width: 110px;
-    padding: .5em;
+    width: 170px;
+    margin: .5em;
     border-radius: 100%;
+    box-shadow: 10px 10px 44px -12px #3964c87e;
 }
 
 #section-sobre-mim {
@@ -161,7 +179,7 @@ body {
 
 #subtitulo-sobre-mim {
     color: var(--cor-principal);
-    font-size: 2.5em;
+    font-size: 4em;
     text-align: center;
 }
 
@@ -169,18 +187,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2em 0;
+    margin: 0 0 2em;
     gap: 3em;
 }
 
 #foto-sobgre-mim {
-    width: 250px;
+    width: 400px;
 }
 
 #paragrafo-sobre-mim {
-    width: 300px;
+    width: 600px;
     color: var(--cor-secundária);
-    font-size: 1.1em;
+    font-size: 1.2em;
     letter-spacing: .5px;
     line-height: 1.2em;
 }   
@@ -188,9 +206,9 @@ body {
 #paragrafo-evolucao {
     color: var(--cor-secundária);
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
-    margin-bottom: 1.5em;
+    margin: 1em 0;
 }
   
 img {
@@ -199,6 +217,7 @@ img {
 
 .swiper {
     height: 500px;
+    width: 1200px;
 }
 
 .swiper-slide {
@@ -207,5 +226,3 @@ img {
     align-items: center;
     justify-content: center;
 }
-
-  
