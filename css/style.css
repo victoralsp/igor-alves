@@ -30,6 +30,20 @@ body {
     z-index: 1;
 }
 
+#header-logo-tela-pequena {
+    display: none;
+}
+
+#header-logo-tela-pequena {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+#header-logo-tela-pequena a {
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+
 #ul-nav-header {
     display: flex;
     gap: 4em;
@@ -56,6 +70,13 @@ body {
 #header-logo a {
     text-decoration: none;
     color: var(--cor-principal);
+}
+
+#icone-menu {
+    display: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
 }
 
 #section-inicio {
@@ -173,10 +194,6 @@ body {
     box-shadow: 10px 10px 44px -12px #3964c87e;
 }
 
-#section-sobre-mim {
-
-}
-
 #subtitulo-sobre-mim {
     color: var(--cor-principal);
     font-size: 4em;
@@ -226,3 +243,4 @@ img {
     align-items: center;
     justify-content: center;
 }
+

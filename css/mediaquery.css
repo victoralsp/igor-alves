@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px) {
+    #header-logo-tela-pequena {
+        display: block;
+    }
+
+    #icone-menu {
+        display: block;
+        font-size: 2em;
+        color: var(--cor-principal);
+    }
+
+    #nav-header {
+        height: 4em;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0 4em;
+    }
+
+    #ul-nav-header {
+        margin: 4em 0;
+        padding: 3em 0 4em;
+        width: 100%;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateX(-100%);
+        filter: blur(2px);
+        background-color: var(--bg-color);
+        position: fixed;
+        left: 0;
+        top: -1px;
+        transition: 1s ease;
+    }
+    
+    #ul-nav-header.active {
+        background-color: var(--bg-color);
+        opacity: 1;
+        filter: blur(0);
+        pointer-events: all;
+        transform: translateX(0);
+    }
+
+    #header-logo {
+        display: none;
+    }
+
+    #ul-nav-header {
+        flex-direction: column;
+    }
+}
