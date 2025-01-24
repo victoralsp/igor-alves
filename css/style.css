@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -9,7 +10,6 @@
     --cor-principal: #3964c8;
     --cor-secundária: #fff;
     --cor-hover-botoes: #153788;
-    scroll-behavior: smooth;
 }
 
 body {
@@ -21,13 +21,14 @@ body {
     display: flex;
     justify-content: center;
     padding: .5em;
-    position: fixed;
+    height: 73px;
+    position: sticky;
     box-shadow: 1px 1px 10px #3964c870;
     width: 100%;
     right: 0;
     top: 0;
     background-color: var(--bg-color);
-    z-index: 1;
+    z-index: 99999999999999999999999;
 }
 
 #header-logo-tela-pequena {
@@ -48,6 +49,7 @@ body {
     display: flex;
     gap: 4em;
     align-items: center;
+    z-index: 9999999;
 }
 
 #ul-nav-header li {
@@ -81,8 +83,10 @@ body {
 
 #section-inicio {
     text-align: center;
-    /* border-bottom: 1px solid var(--cor-principal); */
-    height: 100vh;
+    height: calc(100vh - 73px);
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1800px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,19 +104,24 @@ body {
     font-size: 8em;
     text-transform: uppercase;
     font-weight: bold;
+    animation: nomeAnimacao 2s ease;
 }
 
 #foto-sec-inicio {
-    width: 450px;
+    max-width: 450px;
+    width: 90%;
+    animation: fotoAnimacao 2s ease;
 }
 
 #paragrafo-sec-inicio {
     color: var(--cor-secundária);
-    font-size: 1.8em;
-    width: 750px;
+    font-size: 2em;
+    width: 90%;
+    max-width: 1000px;
     margin: 1em auto 1.5em;
     font-weight: bold;
     letter-spacing: 1px;
+    animation: paragrafoAnimacao 3s ease;
 }
 
 .paragrafo-colorido {
@@ -126,33 +135,40 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 5px;
+    width: 90%;
+    max-width: 400px;
     font-size: 1.5em;
-    padding: .6em 4em;
+    padding: 1em 5em;
     box-shadow: 5px 5px 44px -12px rgba(255, 255, 255, 0.418);
     transition: .5s ease;
+    animation: botaoAnimacao 2s ease;
 }
+
 #link-saber-mais:hover {
     background-color: var(--cor-hover-botoes);
     scale: 1.05;
 }
 
 #section-apresentando {
+    width: 90%;
+    max-width: 1800px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5em;
-    margin: 3em 0;
-    padding: 0em 0 8em;
+    margin: 5em auto;
     /* border-bottom: 1px solid var(--cor-principal); */
 }
 
 #sec-apresentando-sub-parag-botao {
-    width: 500px;
+    max-width: 600px;
+    width: 90%;
 }
 
 #sec-apresentando-subtitulo {
     color: var(--cor-principal);
     font-size: 4em;
+    text-shadow: 5px 5px 20px rgba(255, 255, 255, 0.185);
 }
 
 #sec-apresentando-paragrafo {
@@ -183,7 +199,8 @@ body {
 }
 
 #sec-apresentando-imagens {
-    width: 400px;
+    max-width: 400px;
+    width: 90%;
     text-align: center;
 }
 
@@ -192,6 +209,12 @@ body {
     margin: .5em;
     border-radius: 100%;
     box-shadow: 10px 10px 44px -12px #3964c87e;
+}
+
+#section-sobre-mim {
+    width: 90%;
+    max-width: 1800px;
+    margin: 10em auto;
 }
 
 #subtitulo-sobre-mim {
@@ -208,12 +231,14 @@ body {
     gap: 3em;
 }
 
-#foto-sobgre-mim {
-    width: 400px;
+#foto-sobre-mim {
+    width: 90%;
+    max-width: 400px;
 }
 
 #paragrafo-sobre-mim {
-    width: 600px;
+    width: 90%;
+    max-width: 800px;
     color: var(--cor-secundária);
     font-size: 1.2em;
     letter-spacing: .5px;
@@ -226,10 +251,7 @@ body {
     font-size: 2em;
     font-weight: bold;
     margin: 1em 0;
-}
-  
-img {
-    box-shadow: 0 1px 2px #0003;
+    text-shadow: 5px 5px 20px rgba(255, 255, 255, 0.185);
 }
 
 .swiper {
@@ -243,4 +265,5 @@ img {
     align-items: center;
     justify-content: center;
 }
+
 

@@ -1,3 +1,440 @@
+@media screen and (max-width: 480px) {
+    #nav-header {
+        gap: 10em;
+    }
+
+    #section-inicio {
+        text-align: center;
+        height: auto;
+    }
+    .nome {
+        display: none;
+    }
+
+    #foto-sec-inicio {
+        width: 300px;
+    }
+
+    #paragrafo-sec-inicio {
+        font-size: 1.4em;
+    }
+
+    #link-saber-mais {
+        font-size: 1.3em;
+        padding: .8em 4em;
+    }
+
+    #section-apresentando {
+        flex-direction: column-reverse;
+        margin: 5em auto;
+        gap: 1em;
+    }
+
+    #sec-apresentando-sub-parag-botao {
+        text-align: left;
+    }
+
+    #sec-apresentando-subtitulo {
+        font-size: 3em;
+    }
+
+    #sec-apresentando-paragrafo {
+        font-size: 1.2em;
+        letter-spacing: .8px;
+        line-height: 1.2em;
+        margin: .8em 0 2em;
+    }
+
+    #link-whatsapp {
+        border-radius: 5px;
+        padding: 1.2em 2em;
+    }
+
+    #sec-apresentando-imagens {
+        text-align: center;
+    }
+
+    #sec-apresentando-imagens img:nth-child(n+2) {
+        display: none;
+    }
+
+    #section-sobre-mim {
+        margin: 0em auto;
+    }
+
+    #foto-e-paragrafo-sobre-mim {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 2em;
+        gap: 1em;
+    }
+
+    #subtitulo-sobre-mim {
+        font-size: 3em;
+        color: var(--cor-secundária);
+    }
+
+    #foto-sobre-mim {
+        width: 300px;
+    }
+
+    #paragrafo-evolucao {
+        color: var(--cor-principal);
+        font-size: 2.5em;
+    } 
+
+    .swiper {
+        height: fit-content;
+        width: 90%;
+        max-width: 1800px;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-img img {
+        width: 90%;
+    }
+
+    .swiper-button-next:after, .swiper-button-prev:after {
+        color: var(--cor-secundária) !important;
+        font-size: 1.2em !important;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #nav-header {
+        gap: 10em;
+    }
+
+    #section-inicio {
+        text-align: center;
+        height: auto;
+    }
+    .nome {
+        display: none;
+    }
+
+    #foto-sec-inicio {
+        width: 300px;
+    }
+
+    #paragrafo-sec-inicio {
+        font-size: 1.4em;
+    }
+
+    #link-saber-mais {
+        font-size: 1.3em;
+        padding: .8em 4em;
+    }
+
+    #section-apresentando {
+        flex-direction: column-reverse;
+        margin: 5em auto;
+        gap: 2em;
+        text-align: center;
+    }
+
+    #sec-apresentando-subtitulo {
+        font-size: 3em;
+    }
+
+    #sec-apresentando-paragrafo {
+        font-size: 1.3em;
+        letter-spacing: .8px;
+        line-height: 1.3em;
+        margin: 1em 0 1.5em;
+    }
+
+    #link-whatsapp {
+        border-radius: 5px;
+        padding: 1.2em 2em;
+    }
+
+    #sec-apresentando-imagens {
+        text-align: center;
+    }
+
+    #sec-apresentando-imagens img:nth-child(n+2) {
+        display: none;
+    }
+
+    #section-sobre-mim {
+        margin: 0em auto;
+    }
+
+    #foto-e-paragrafo-sobre-mim {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 2em;
+        gap: 1em;
+    }
+
+    #paragrafo-sobre-mim {
+        letter-spacing: 1px;
+        line-height: 1.3em;
+    } 
+
+    #subtitulo-sobre-mim {
+        font-size: 3em;
+        color: var(--cor-secundária);
+    }
+
+    #foto-sobre-mim {
+        width: 300px;
+    }
+
+    #paragrafo-evolucao {
+        color: var(--cor-principal);
+        font-size: 2.5em;
+    } 
+
+    .swiper {
+        height: fit-content;
+        width: 90%;
+        max-width: 1800px;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-img img {
+        width: 90%;
+    }
+
+    .swiper-button-next:after, .swiper-button-prev:after {
+        color: var(--cor-secundária) !important;
+        font-size: 2em !important;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #nav-header {
+        gap: 10em;
+    }
+
+    #section-inicio {
+        text-align: center;
+        height: auto;
+    }
+    .nome {
+        /* display: none; */
+        font-size: 4.5em;
+    }
+
+    #foto-sec-inicio {
+        width: 300px;
+    }
+
+    #paragrafo-sec-inicio {
+        font-size: 1.4em;
+    }
+
+    #link-saber-mais {
+        font-size: 1.3em;
+        padding: .8em 4em;
+    }
+
+    #section-apresentando {
+        margin: 3em auto;
+        gap: 2em;
+        flex-direction: column-reverse;
+    }
+
+    #sec-apresentando-subtitulo {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    #sec-apresentando-paragrafo {
+        font-size: 1.4em;
+        letter-spacing: .8px;
+        line-height: 1.2em;
+        margin: .8em 0 2em;
+        text-align: center;
+    }
+
+    #link-whatsapp {
+        border-radius: 5px;
+        padding: 1.2em 2em;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    #sec-apresentando-imagens {
+        text-align: center;
+    }
+
+    .icones-sec-apresentando {
+        display: none;
+    }
+
+    #section-sobre-mim {
+        margin: 5em auto;
+    }
+
+    #foto-e-paragrafo-sobre-mim {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 2em;
+        gap: 1em;
+    }
+
+    #paragrafo-sobre-mim {
+        letter-spacing: 1px;
+        line-height: 1.3em;
+    } 
+
+    #subtitulo-sobre-mim {
+        font-size: 3em;
+        color: var(--cor-secundária);
+    }
+
+    #foto-sobre-mim {
+        width: 300px;
+    }
+
+    #paragrafo-evolucao {
+        color: var(--cor-principal);
+        font-size: 2.5em;
+    } 
+
+    .swiper {
+        height: fit-content;
+        width: 90%;
+        max-width: 1800px;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-img img {
+        width: 90%;
+    }
+
+    .swiper-button-next:after, .swiper-button-prev:after {
+        color: var(--cor-secundária) !important;
+        font-size: 2.5em !important;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+    #nav-header {
+        gap: 10em;
+    }
+
+    #section-inicio {
+        text-align: center;
+    }
+    .nome {
+        /* display: none; */
+        font-size: 6em;
+    }
+
+    #foto-sec-inicio {
+        width: 350px;
+    }
+
+    #paragrafo-sec-inicio {
+        font-size: 1.5em;
+        max-width: 800px;
+    }
+
+    #link-saber-mais {
+        font-size: 1.3em;
+        padding: .8em 1em;
+    }
+
+    #section-apresentando {
+        margin: 5em auto;
+        gap: 2em;
+    }
+
+    #sec-apresentando-subtitulo {
+        font-size: 3em;
+        text-align: left;
+    }
+
+    #sec-apresentando-paragrafo {
+        font-size: 1.4em;
+        letter-spacing: .8px;
+        line-height: 1.2em;
+        margin: .8em 0 2em;
+    }
+
+    #link-whatsapp {
+        border-radius: 5px;
+        padding: 1.2em 2em;
+    }
+
+    #sec-apresentando-imagens {
+        text-align: center;
+    }
+
+    #foto-e-paragrafo-sobre-mim {
+        display: flex;
+        margin: 0 0 2em;
+        gap: 1em;
+    }
+
+    #paragrafo-sobre-mim {
+        letter-spacing: 1px;
+        line-height: 1.3em;
+    } 
+
+    #subtitulo-sobre-mim {
+        font-size: 3em;
+        color: var(--cor-principal);
+        margin: 1em 0;
+    }
+
+    #foto-sobre-mim {
+        width: 300px;
+    }
+
+    #paragrafo-evolucao {
+        color: var(--cor-secundária);
+        font-size: 2.5em;
+    } 
+
+    .swiper {
+        height: fit-content;
+        width: 90%;
+        max-width: 1800px;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-img img {
+        width: 90%;
+    }
+
+    .swiper-button-next:after, .swiper-button-prev:after {
+        color: var(--cor-secundária) !important;
+        font-size: 2.5em !important;
+    }
+} 
+
+/* Media query especifíca para o menu responsivo:  */
 @media screen and (max-width: 768px) {
     #header-logo-tela-pequena {
         display: block;
