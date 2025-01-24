@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="css/fontes.css">
     <link rel="stylesheet" href="css/mediaquery.css">
     <!-- <link rel="stylesheet" href="css/animacoes.css"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <title>Consultoria - Igor Alves</title>
+    <title>Mentoria - Igor Alves</title>
 </head>
 <body>
     <header id="header">
@@ -16,7 +17,7 @@
             <p id="header-logo-tela-pequena"><a href="#">IAP</a></p>
             <button id="icone-menu"><i class="fa-solid fa-bars"></i></button>
             <ul id="ul-nav-header">
-                <li><a href="#section-apresentando" class="links-navegacao-header">Consultoria</a></li>
+                <li><a href="#section-apresentando" class="links-navegacao-header">Mentoria</a></li>
                 <li><a href="#section-sobre-mim" class="links-navegacao-header">Sobre mim</a></li>
                 <p id="header-logo"><a href="#">IAP</a></p>
                 <li><a href="" class="links-navegacao-header">Benefícios</a></li>
@@ -28,24 +29,39 @@
     <main id="main">
         <section id="section-inicio">
             <div id="nome-e-foto">
-                <h1 class="nome">Igor</h1>
-                <img src="imagens/foto.png" alt="foto do igor" id="foto-sec-inicio">
-                <h1 class="nome">Alves</h1>
+                <h1 class="nome" data-aos="fade-right" data-aos-easing="ease"
+                data-aos-duration="2000">Igor</h1>
+                <img src="imagens/foto.png" alt="foto do igor" id="foto-sec-inicio" data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom" data-aos-easing="ease"
+                data-aos-duration="2000">
+                <h1 class="nome" data-aos="fade-left" data-aos-easing="ease"
+                data-aos-duration="2000">Alves</h1>
             </div>
-            <p id="paragrafo-sec-inicio">Conquiste a sua <span class="paragrafo-colorido">melhor versão</span> e transforme seu corpo de maneira simples, descomplicada e com <span class="paragrafo-colorido">treinos eficazes</span> de verdade</p>
-            <a href="#section-apresentando" id="link-saber-mais">Saber mais</a>
+            <p id="paragrafo-sec-inicio" data-aos="fade-right" data-aos-easing="ease"
+            data-aos-duration="2000">Conquiste a sua <span class="paragrafo-colorido">melhor versão</span> e transforme seu corpo de maneira simples, descomplicada e com <span class="paragrafo-colorido">treinos eficazes</span> de verdade</p>
+            <div data-aos="zoom-in" data-aos-easing="ease"
+            data-aos-duration="2000">
+                <a href="#section-apresentando" id="link-saber-mais" >Saber mais</a>
+            </div>
         </section>
         <section id="section-apresentando">
             <div id="sec-apresentando-sub-parag-botao">
-                <h2 id="sec-apresentando-subtitulo">Pra quem é?</h2>
-                <p id="sec-apresentando-paragrafo">A consultoria é voltada para pessoas que estão em busca de mudar seu corpo, seja para emagrecimento ou ganho de massa muscular. Com acompanhamento personalizado, o profissional analisa o perfil do aluno, considerando saúde, hábitos alimentares e nível de atividade física, e cria um plano individualizado para cada um.</p>
-                <a href="" id="link-whatsapp">Faça parte do time</a>
+                <h2 id="sec-apresentando-subtitulo" data-aos="fade-right" data-aos-easing="ease"
+                data-aos-duration="1000">Pra quem é?</h2>
+                <p id="sec-apresentando-paragrafo" data-aos="fade-zoom-in" data-aos-easing="ease"
+                data-aos-duration="2000">A mentoria é voltada para pessoas que estão em busca de mudar seu corpo, seja para emagrecimento ou ganho de massa muscular. Com acompanhamento personalizado, o profissional analisa o perfil do aluno, considerando saúde, hábitos alimentares e nível de atividade física, e cria um plano individualizado para cada um.</p>
+                <div data-aos="zoom-in" data-aos-easing="ease"
+                data-aos-duration="700"><a href="https://wa.me/5511947404821" target="_blank" id="link-whatsapp" >Faça parte do time</a></div>
             </div>
             <aside id="sec-apresentando-imagens">
-                <img src="imagens/icone1.png" alt="Icone de homem fazendo pose" class="icones-sec-apresentando">
-                <img src="imagens/icone2.png" alt="Icone de biceps" class="icones-sec-apresentando">
-                <img src="imagens/icone3.png" alt="Icone de coração e saúde" class="icones-sec-apresentando">
-                <img src="imagens/icone4.png" alt="Icone de mulher fazendo pose" class="icones-sec-apresentando">
+                <img src="imagens/icone1.png" alt="Icone de homem fazendo pose" class="icones-sec-apresentando" data-aos="fade-left"
+                data-aos-anchor-placement="center-bottom" data-aos-delay="200" data-aos-duration="1500">
+                <img src="imagens/icone2.png" alt="Icone de biceps" class="icones-sec-apresentando" data-aos="fade-left"
+                data-aos-anchor-placement="center-bottom" data-aos-delay="300" data-aos-duration="1500">
+                <img src="imagens/icone3.png" alt="Icone de coração e saúde" class="icones-sec-apresentando" data-aos="fade-left"
+                data-aos-anchor-placement="center-bottom" data-aos-delay="400" data-aos-duration="1500">
+                <img src="imagens/icone4.png" alt="Icone de mulher fazendo pose" class="icones-sec-apresentando" data-aos="fade-left"
+     data-aos-anchor-placement="center-bottom" data-aos-delay="500" data-aos-duration="1500">
             </aside>
         </section>
         <section id="section-sobre-mim">
@@ -83,6 +99,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/05ac79b2f0.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="index.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
