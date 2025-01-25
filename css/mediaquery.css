@@ -6,6 +6,8 @@
     #section-inicio {
         text-align: center;
         height: auto;
+        width: 100%;
+        margin: 2em 0;
     }
     .nome {
         display: none;
@@ -20,14 +22,15 @@
     }
 
     #link-saber-mais {
-        font-size: 1.3em;
-        padding: .8em 4em;
+        font-size: 1.2em;
+        padding: 1em 28vw;
     }
 
     #section-apresentando {
         flex-direction: column-reverse;
-        margin: 5em auto;
+        margin: 6em auto;
         gap: 1em;
+        width: 100%;
     }
 
     #sec-apresentando-sub-parag-botao {
@@ -47,7 +50,7 @@
 
     #link-whatsapp {
         border-radius: 5px;
-        padding: 1.2em 2em;
+        padding: 1.2em 15vw;
     }
 
     #sec-apresentando-imagens {
@@ -59,7 +62,8 @@
     }
 
     #section-sobre-mim {
-        margin: 0em auto;
+        margin: 4em auto;
+        width: 100%;
     }
 
     #foto-e-paragrafo-sobre-mim {
@@ -80,7 +84,7 @@
 
     #paragrafo-evolucao {
         color: var(--cor-principal);
-        font-size: 2.5em;
+        font-size: 2em;
     } 
 
     .swiper {
@@ -97,7 +101,7 @@
     }
 
     .project-img img {
-        width: 90%;
+        width: 100%;
     }
 
     .swiper-button-next:after, .swiper-button-prev:after {
@@ -115,6 +119,7 @@
     #section-inicio {
         text-align: center;
         height: auto;
+        width: 100%;
     }
     .nome {
         display: none;
@@ -130,14 +135,15 @@
 
     #link-saber-mais {
         font-size: 1.3em;
-        padding: .8em 4em;
+        padding: .8em 28vw;
     }
 
     #section-apresentando {
         flex-direction: column-reverse;
-        margin: 5em auto;
+        margin: 7em auto 5em;
         gap: 2em;
         text-align: center;
+        width: 100%;
     }
 
     #sec-apresentando-subtitulo {
@@ -153,7 +159,6 @@
 
     #link-whatsapp {
         border-radius: 5px;
-        padding: 1.2em 2em;
     }
 
     #sec-apresentando-imagens {
@@ -165,7 +170,8 @@
     }
 
     #section-sobre-mim {
-        margin: 0em auto;
+        margin: 4em auto;
+        width: 100%;
     }
 
     #foto-e-paragrafo-sobre-mim {
@@ -191,7 +197,7 @@
 
     #paragrafo-evolucao {
         color: var(--cor-principal);
-        font-size: 2.5em;
+        font-size: 2.2em;
     } 
 
     .swiper {
@@ -242,13 +248,18 @@
 
     #link-saber-mais {
         font-size: 1.3em;
-        padding: .8em 4em;
+        padding: .8em 15vw;
     }
 
     #section-apresentando {
-        margin: 3em auto;
+        margin: 5em auto;
         gap: 2em;
         flex-direction: column-reverse;
+    }
+
+    #sec-apresentando-sub-parag-botao {
+        max-width: 750px;
+        width: 90%;
     }
 
     #sec-apresentando-subtitulo {
@@ -264,11 +275,10 @@
         text-align: center;
     }
 
-    #link-whatsapp {
-        border-radius: 5px;
-        padding: 1.2em 2em;
-        width: 500px;
+    a#link-whatsapp {
+        width: 60%;
         margin: 0 auto;
+        display: block;
     }
 
     #sec-apresentando-imagens {
@@ -306,7 +316,7 @@
 
     #paragrafo-evolucao {
         color: var(--cor-principal);
-        font-size: 2.5em;
+        font-size: 2.3em;
     } 
 
     .swiper {
@@ -356,11 +366,11 @@
 
     #link-saber-mais {
         font-size: 1.3em;
-        padding: .8em 1em;
+        padding: .8em 10vw;
     }
 
     #section-apresentando {
-        margin: 5em auto;
+        margin: 7em auto 0;
         gap: 2em;
     }
 
@@ -383,6 +393,10 @@
 
     #sec-apresentando-imagens {
         text-align: center;
+    }
+
+    #section-sobre-mim {
+        margin: 7em auto;
     }
 
     #foto-e-paragrafo-sobre-mim {
@@ -408,7 +422,7 @@
 
     #paragrafo-evolucao {
         color: var(--cor-secundária);
-        font-size: 2.5em;
+        font-size: 2.3em;
     } 
 
     .swiper {

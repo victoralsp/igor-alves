@@ -16,7 +16,8 @@ iconeMenu.addEventListener('click', ()=> {
   menuAberto = !menuAberto
 })
 
-var swiper = new Swiper(".swiper", {
+
+let swiper = new Swiper(".swiper", {
     cssMode: true,
     loop: true,
     navigation: {
@@ -28,3 +29,5 @@ var swiper = new Swiper(".swiper", {
     },
     keyboard: true,
   });
+
+  
