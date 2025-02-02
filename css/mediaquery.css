@@ -50,7 +50,7 @@
 
     #link-whatsapp {
         border-radius: 5px;
-        padding: 1.2em 15vw;
+        padding: 1.2em 10vw;
     }
 
     #sec-apresentando-imagens {
@@ -120,6 +120,15 @@
 
     #link-whatsapp-beneficios{
         max-width: 100%;
+    }
+
+    #subtitulo-faq {
+        font-size: 2em;
+    }
+
+    #link-whatsapp-perguntas {
+        max-width: 600px;
+        width: 90%;
     }
 
 }

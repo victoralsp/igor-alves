@@ -51,3 +51,21 @@ let swiper = new Swiper(".swiper", {
   })
 
   
+const perguntaFrequente = document.querySelectorAll('.pergunta')
+const respostaFrequente = document.querySelectorAll('.paragrafo-resposta')
+const setaEstado = document.querySelectorAll('.seta-estado')
+
+perguntaFrequente.forEach((pergunta, index) => {
+  pergunta.addEventListener('click', () => {
+    const resposta = respostaFrequente[index]
+    const seta = setaEstado[index]  
+
+    if (resposta.style.display === 'block') {
+      seta.innerHTML = '<i class="fa-solid fa-caret-right"></i>'
+      resposta.style.display = 'none'
+    } else {
+      seta.innerHTML = '<i class="fa-solid fa-sort-down"></i>'
+      resposta.style.display = 'block'
+    }
+  })
+})

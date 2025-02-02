@@ -197,6 +197,10 @@ a#link-whatsapp {
     background-color: var(--cor-hover-botoes);
     /* scale: 1.05; */
 }
+.icone-whatsapp {
+    padding: 0 1em;
+    font-size: 1.2em;
+}
 
 #sec-apresentando-imagens {
     max-width: 400px;
@@ -350,4 +354,71 @@ a#link-whatsapp {
 
 #link-whatsapp-beneficios:hover {
     background-color: var(--cor-hover-botoes);
+}
+
+#section-perguntas-frequentes {
+    margin: 6em auto;
+    width: 100%;
+    max-width: 1800px;
+}
+
+#subtitulo-faq {
+    text-align: center;
+    font-size: 2.5em;
+    color: var(--cor-secundária);
+    margin: 2em 0 1em;
+}
+
+.perguntas-e-respostas {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundária);
+    padding: 0 2em;
+    border-radius: 5px;
+    max-width: 700px;
+    width: 90%;
+    margin: 1em auto;
+}
+
+.pergunta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.paragrafo-pergunta {
+    font-size: 1.3em;
+    padding: .8em .5em .8em 0 ;
+}
+
+.paragrafo-resposta {
+    color: var(--cor-secundária);
+    font-size: 1em;
+    padding: 1em 0;
+    border-top: 1px solid white;
+    display: none;
+}
+
+#possui-duvida {
+    font-size: 2em;
+    color: var(--cor-secundária);
+    text-align: center;
+    margin: 1.5em 0 1em;
+}
+
+#link-whatsapp-perguntas {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundária);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 1.1em 2em;
+    display: block;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 44px -12px rgba(255, 255, 255, 0.418);
+    transition: .5s ease;
 }
