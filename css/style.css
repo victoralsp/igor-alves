@@ -277,6 +277,10 @@ a#link-whatsapp {
     justify-content: center;
 }
 
+.swiper-css-mode>.swiper-wrapper {
+    border-radius: 10px;
+}
+
 #section-beneficios {
     width: 90%;
     max-width: 1800px;
