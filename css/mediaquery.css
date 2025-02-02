@@ -1,6 +1,6 @@
 @media screen and (max-width: 480px) {
     #nav-header {
-        gap: 10em;
+        margin: 0;
     }
 
     #section-inicio {
@@ -107,6 +107,19 @@
     .swiper-button-next:after, .swiper-button-prev:after {
         color: var(--cor-secundária) !important;
         font-size: 1.2em !important;
+    }
+
+    #cards {
+        margin: 2em 0;
+    }
+
+    #beneficios-subtitulo {
+        font-size: 2em;
+        margin: 0em;
+    }
+
+    #link-whatsapp-beneficios{
+        max-width: 100%;
     }
 
 }
@@ -220,6 +233,19 @@
     .swiper-button-next:after, .swiper-button-prev:after {
         color: var(--cor-secundária) !important;
         font-size: 2em !important;
+    }
+
+    #cards {
+        margin: 2em 0;
+    }
+    
+    #beneficios-subtitulo {
+        font-size: 2em;
+        margin: 0em;
+    }
+
+    #link-whatsapp-beneficios{
+        max-width: 100%;
     }
 
 }
@@ -466,7 +492,7 @@
         align-items: center;
         width: 100%;
         justify-content: space-between;
-        margin: 0 4em;
+        margin: 0 1em;
     }
 
     #ul-nav-header {
