@@ -222,7 +222,7 @@ a#link-whatsapp {
     font-size: 3em;
     text-align: center;
     text-transform: uppercase;
-    z-index: 10;
+    z-index: 9999 !important;
 }
 
 #foto-e-paragrafo-sobre-mim {

@@ -4,7 +4,8 @@ const headerShadow = document.getElementById('header')
 const linksNavbar = document.querySelectorAll('.links-navegacao-header')
 let menuAberto = false
 
-iconeMenu.addEventListener('click', ()=> {
+iconeMenu.addEventListener('click', (e)=> {
+  e.stopPropagation();
   if (menuAberto) {
     navegacaoMenu.classList.remove('active')
     iconeMenu.innerHTML = '<i class="fa-solid fa-bars"></i>'
@@ -16,6 +17,25 @@ iconeMenu.addEventListener('click', ()=> {
   menuAberto = !menuAberto
 })
 
+document.addEventListener('click', (event) => {
+  if (!navegacaoMenu.contains(event.target) && !iconeMenu.contains(event.target)) {
+    if (menuAberto) {
+      navegacaoMenu.classList.remove('active')
+      iconeMenu.innerHTML = '<i class="fa-solid fa-bars"></i>'
+      menuAberto = false
+    }
+  }
+})
+
+linksNavbar.forEach(link => {
+  link.addEventListener('click', () => {
+    if (menuAberto) {
+      navegacaoMenu.classList.remove('active')
+      iconeMenu.innerHTML = '<i class="fa-solid fa-bars"></i>'
+      menuAberto = false
+    }
+  })
+})
 
 let swiper = new Swiper(".swiper", {
     cssMode: true,
@@ -28,6 +48,6 @@ let swiper = new Swiper(".swiper", {
       el: ".swiper-pagination",
     },
     keyboard: true,
-  });
+  })
 
   
