@@ -263,6 +263,10 @@ a#link-whatsapp {
     overflow-x: hidden;
 }
 
+.imagens-evolucao {
+    border-radius: 10px;
+}
+
 .swiper-slide {
     text-align: center;
     display: flex;
@@ -270,5 +274,78 @@ a#link-whatsapp {
     justify-content: center;
 }
 
+#section-beneficios {
+    width: 90%;
+    max-width: 1800px;
+    margin: 5em auto;
+}
+
+#beneficios-subtitulo {
+    font-size: 2.5em;
+    text-align: center;
+    color: var(--cor-secundária);
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin: 4em auto;
+    max-width: 1200px;
+}
+
+.cards-beneficios {
+    color: var(--cor-secundária);
+    background-color: var(--cor-principal);
+    flex: 1 1 300px; 
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px -12px rgba(255, 255, 255, 0.288);
+    transition: .8s ease;
+}
+
+#cards:has(.cards-beneficios:hover) .cards-beneficios:not(:hover) {
+    opacity: .2;
+}
+
+.icones-beneficios {
+    font-size: 4em;
+    margin: .4em 0;
+}
+
+.subtitulo-cards {
+    font-size: 1.5em;
+    margin: .4em 0;
+}
+
+.paragrafo-cards {
+    font-size: 1em;
+    margin: 1em 0;
+}
 
 
+a#link-whatsapp-beneficios {
+    margin: 0em auto;
+    width: 30%;
+    display: block;
+}
+
+#link-whatsapp-beneficios {
+    text-align: center;
+    background-color: var(--cor-principal);
+    color: var(--cor-secundária);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 1.1em 2em;
+    box-shadow: 5px 5px 44px -12px rgba(255, 255, 255, 0.418);
+    text-align: center;
+    transition: .5s ease;
+}
+
+#link-whatsapp-beneficios:hover {
+    background-color: var(--cor-hover-botoes);
+}
