@@ -1,3 +1,4 @@
+// menu responsivo 
 const iconeMenu = document.getElementById('icone-menu')
 const navegacaoMenu = document.getElementById('ul-nav-header')
 const headerShadow = document.getElementById('header')
@@ -37,6 +38,7 @@ linksNavbar.forEach(link => {
   })
 })
 
+// biblioteca slider de imagens
 let swiper = new Swiper(".swiper", {
     cssMode: true,
     loop: true,
@@ -51,21 +53,24 @@ let swiper = new Swiper(".swiper", {
   })
 
   
+// faqs
 const perguntaFrequente = document.querySelectorAll('.pergunta')
 const respostaFrequente = document.querySelectorAll('.paragrafo-resposta')
 const setaEstado = document.querySelectorAll('.seta-estado')
+let faqAberto = false
 
 perguntaFrequente.forEach((pergunta, index) => {
   pergunta.addEventListener('click', () => {
     const resposta = respostaFrequente[index]
     const seta = setaEstado[index]  
 
-    if (resposta.style.display === 'block') {
+    if (faqAberto) {
       seta.innerHTML = '<i class="fa-solid fa-caret-right"></i>'
-      resposta.style.display = 'none'
+      resposta.classList.remove('active')
     } else {
       seta.innerHTML = '<i class="fa-solid fa-sort-down"></i>'
-      resposta.style.display = 'block'
+      resposta.classList.add('active')
     }
+    faqAberto = !faqAberto
   })
 })

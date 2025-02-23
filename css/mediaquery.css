@@ -28,7 +28,7 @@
 
     #section-apresentando {
         flex-direction: column-reverse;
-        margin: 6em auto;
+        margin: 6em auto 2em;
         gap: 1em;
         width: 100%;
     }
@@ -43,9 +43,10 @@
 
     #sec-apresentando-paragrafo {
         font-size: 1.2em;
-        letter-spacing: .8px;
+        letter-spacing: .5px;
         line-height: 1.2em;
         margin: .8em 0 2em;
+        text-align: justify;
     }
 
     #link-whatsapp {
@@ -167,6 +168,9 @@
         text-align: center;
         width: 100%;
     }
+    #sec-apresentando-sub-parag-botao {
+        max-width: fit-content;
+    }
 
     #sec-apresentando-subtitulo {
         font-size: 3em;
@@ -177,6 +181,7 @@
         letter-spacing: .8px;
         line-height: 1.3em;
         margin: 1em 0 1.5em;
+        text-align: justify;
     }
 
     #link-whatsapp {
@@ -287,7 +292,7 @@
     }
 
     #section-apresentando {
-        margin: 5em auto;
+        margin: 8em auto 5em;
         gap: 2em;
         flex-direction: column-reverse;
     }
@@ -303,12 +308,13 @@
     }
 
     #sec-apresentando-paragrafo {
-        font-size: 1.4em;
-        letter-spacing: .8px;
-        line-height: 1.2em;
+        font-size: 1.2em;
+        letter-spacing: 1px;
+        line-height: 1.3em;
         margin: .8em 0 2em;
-        text-align: center;
+        text-align: justify;
     }
+
 
     a#link-whatsapp {
         width: 60%;
@@ -320,7 +326,7 @@
         text-align: center;
     }
 
-    .icones-sec-apresentando {
+    #sec-apresentando-imagens img:nth-child(n+2) {
         display: none;
     }
 
@@ -405,7 +411,7 @@
     }
 
     #section-apresentando {
-        margin: 7em auto 0;
+        margin: 10em auto 0;
         gap: 2em;
     }
 
@@ -415,9 +421,9 @@
     }
 
     #sec-apresentando-paragrafo {
-        font-size: 1.4em;
-        letter-spacing: .8px;
-        line-height: 1.2em;
+        font-size: 1.2em;
+        letter-spacing: 1px;
+        line-height: 1.3em;
         margin: .8em 0 2em;
     }
 
@@ -428,6 +434,10 @@
 
     #sec-apresentando-imagens {
         text-align: center;
+    }
+
+    .icones-sec-apresentando {
+        width: 140px;
     }
 
     #section-sobre-mim {

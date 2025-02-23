@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/scroll-personalizado.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <title>Mentoria - Igor Alves</title>
 </head>
 <body>
@@ -27,21 +28,22 @@
     </header>
     <main id="main">
         <section id="section-inicio">
+            <div id="particles-container"></div>
             <div id="nome-e-foto">
-                <h1 class="nome" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-easing="ease"
-                data-aos-duration="1200" data-aos-once="true">Igor</h1>
-                <img src="imagens/foto.png" alt="foto do igor" id="foto-sec-inicio" data-aos="fade-up"
-                data-aos-anchor-placement="center-bottom" data-aos-easing="ease"
+                    <h1 class="nome" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-easing="ease"
+                    data-aos-duration="1200" data-aos-once="true">Igor</h1>
+                    <img src="imagens/foto.png" alt="foto do igor" id="foto-sec-inicio" data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom" data-aos-easing="ease"
+                    data-aos-duration="1200" data-aos-once="true">
+                    <h1 class="nome" data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-easing="ease"
+                    data-aos-duration="1200" data-aos-once="true">Alves</h1>
+                </div>
+                <p id="paragrafo-sec-inicio" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-easing="ease"
+                data-aos-duration="1200" data-aos-once="true">Conquiste a sua <span class="paragrafo-colorido">melhor versão</span> e transforme seu corpo de maneira simples, descomplicada e com <span class="paragrafo-colorido">treinos eficazes</span> de verdade</p>
+                <div class="div-animacoes-links" data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-easing="ease"
                 data-aos-duration="1200" data-aos-once="true">
-                <h1 class="nome" data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-easing="ease"
-                data-aos-duration="1200" data-aos-once="true">Alves</h1>
-            </div>
-            <p id="paragrafo-sec-inicio" data-aos="fade-right" data-aos-anchor-placement="center-bottom" data-aos-easing="ease"
-            data-aos-duration="1200" data-aos-once="true">Conquiste a sua <span class="paragrafo-colorido">melhor versão</span> e transforme seu corpo de maneira simples, descomplicada e com <span class="paragrafo-colorido">treinos eficazes</span> de verdade</p>
-            <div class="div-animacoes-links" data-aos="zoom-in" data-aos-anchor-placement="center-bottom" data-aos-easing="ease"
-            data-aos-duration="1200" data-aos-once="true">
-                <a href="#section-apresentando" id="link-saber-mais" >Saber mais</a>
-            </div>
+                    <a href="#section-apresentando" id="link-saber-mais" >Saber mais</a>
+                </div>  
         </section>
         <section id="section-apresentando">
             <div id="sec-apresentando-sub-parag-botao">
@@ -185,6 +187,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/index.js"></script>
     <script>
+        // script para inicializar bibliotecas
+        particlesJS.load('particles-container', 'particlesjs-config.json');
         AOS.init(); 
     </script>
 </body>
