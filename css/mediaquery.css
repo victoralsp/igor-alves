@@ -388,6 +388,12 @@
         gap: 10em;
     }
 
+    #btnLightMode {
+        position: absolute;
+        right: 25px;
+        top: 25px;
+    }
+
     #section-inicio {
         text-align: center;
     }
@@ -492,6 +498,14 @@
         font-size: 2.5em !important;
     }
 } 
+
+@media screen and (min-width: 1367px) {
+    #btnLightMode {
+        position: absolute;
+        right: 25px;
+        top: 25px;
+    }
+}
 
 /* Media query especifíca para o menu responsivo:  */
 @media screen and (max-width: 768px) {
