@@ -63,7 +63,7 @@
     }
 
     #section-sobre-mim {
-        margin: 4em auto 6em;
+        margin: 5em auto 0;
         width: 100%;
     }
 
@@ -77,6 +77,16 @@
     #subtitulo-sobre-mim {
         font-size: 3em;
         color: var(--cor-secundária);
+    }
+
+    .paragrafo-sobre-mim {
+        text-align: justify;
+    }
+
+    #container-paragrafos {
+        padding: 2em 1em;
+        margin: 0 auto;
+        width: 100vw;
     }
 
     #foto-sobre-mim {
@@ -103,6 +113,13 @@
 
     .project-img img {
         width: 100%;
+    }
+
+    .swiper-button-prev {
+        transform: translateX(-13px);
+    }
+    .swiper-button-next {
+        transform: translateX(13px);
     }
 
     .swiper-button-next:after, .swiper-button-prev:after {
@@ -208,10 +225,17 @@
         gap: 1em;
     }
 
-    #paragrafo-sobre-mim {
+    .paragrafo-sobre-mim {
         letter-spacing: 1px;
         line-height: 1.3em;
+        text-align: justify;
     } 
+
+    #container-paragrafos {
+        padding: 2em 1em;
+        margin: 0 auto;
+        width: 100vw;
+    }
 
     #subtitulo-sobre-mim {
         font-size: 3em;
@@ -229,8 +253,15 @@
 
     .swiper {
         height: fit-content;
-        width: 90%;
+        width: 100%;
         max-width: 1800px;
+    }
+
+    .swiper-button-prev {
+        transform: translateX(-10px);
+    }
+    .swiper-button-next {
+        transform: translateX(10px);
     }
     
     .swiper-slide {
@@ -245,7 +276,6 @@
     }
 
     .swiper-button-next:after, .swiper-button-prev:after {
-        color: var(--cor-secundária) !important;
         font-size: 2em !important;
     }
 
@@ -341,10 +371,15 @@
         gap: 1em;
     }
 
-    #paragrafo-sobre-mim {
+    .paragrafo-sobre-mim {
         letter-spacing: 1px;
         line-height: 1.3em;
+        text-align: justify;
     } 
+
+    #container-paragrafos {
+        width: 100%;
+    }
 
     #subtitulo-sobre-mim {
         font-size: 3em;
@@ -362,8 +397,15 @@
 
     .swiper {
         height: fit-content;
-        width: 90%;
+        width: 100%;
         max-width: 1800px;
+    }
+
+    .swiper-button-prev {
+        transform: translateX(-12px);
+    }
+    .swiper-button-next {
+        transform: translateX(12px);
     }
     
     .swiper-slide {
@@ -378,7 +420,6 @@
     }
 
     .swiper-button-next:after, .swiper-button-prev:after {
-        color: var(--cor-secundária) !important;
         font-size: 2.5em !important;
     }
 }
@@ -456,15 +497,16 @@
         gap: 1em;
     }
 
-    #paragrafo-sobre-mim {
+    .paragrafo-sobre-mim {
         letter-spacing: 1px;
         line-height: 1.3em;
+        text-align: justify;
     } 
 
     #subtitulo-sobre-mim {
         font-size: 3em;
         color: var(--cor-principal);
-        margin: 1em 0;
+        margin-top: 1em 0;
     }
 
     #foto-sobre-mim {
@@ -478,7 +520,7 @@
 
     .swiper {
         height: fit-content;
-        width: 90%;
+        width: 100%;
         max-width: 1800px;
     }
     
@@ -494,7 +536,6 @@
     }
 
     .swiper-button-next:after, .swiper-button-prev:after {
-        color: var(--cor-secundária) !important;
         font-size: 2.5em !important;
     }
 } 
