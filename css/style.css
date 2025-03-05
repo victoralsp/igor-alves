@@ -135,6 +135,7 @@ canvas {
     justify-content: center;
 }
 
+<<<<<<< Updated upstream
 .nome {
     color: var(--cor-secundária);
     font-size: 8em;
@@ -142,6 +143,13 @@ canvas {
     font-weight: bold;
     z-index: 999;
     transition: 1s ease !important;
+=======
+#container-elementos {
+    max-width: 1800px;
+    margin: 0 auto;
+    overflow: hidden !important;
+    padding: 0 0 4em; 
+>>>>>>> Stashed changes
 }
 
 .nome:hover {
@@ -151,6 +159,12 @@ canvas {
 #foto-sec-inicio {
     max-width: 450px;
     width: 90%;
+}
+
+#foto-sec-inicio {
+    width: 90%;
+    max-width: 600px;
+    display: none;
 }
 
 #paragrafo-sec-inicio {
@@ -207,18 +221,18 @@ canvas {
 }
 
 #sec-apresentando-paragrafo {
-    font-weight: 300;
-    color: var(--cor-secundária);
+    color: #cfcfcf;
+    margin: 1.2em 0;
+    font-weight: normal;
+    width: 100%;
     font-size: 1.5em;
-    letter-spacing: .8px;
-    line-height: 1.2em;
-    margin: .8em 0 2em;
 }
 
 a#link-whatsapp {
     width: 100%;
     display: block;
 }
+
 #link-whatsapp {
     background-color: var(--cor-principal);
     color: var(--cor-secundária);

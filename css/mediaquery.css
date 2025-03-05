@@ -8,6 +8,7 @@
         height: auto;
         width: 100%;
         margin: 2em 0;
+<<<<<<< Updated upstream
     }
     .nome {
         display: none;
@@ -24,11 +25,48 @@
     #link-saber-mais {
         font-size: 1.2em;
         padding: 1em 28vw;
+=======
+        background-image: none;
+    }
+
+    #elementos-inicio {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    #foto-sec-inicio {
+        width: 90%;
+        max-width: 500px;
+        border-radius: 50%;
+        display: block;
+        margin: 0em auto 1em;
+    }
+
+    #paragrafo-sec-inicio {
+        font-size: 1.5em;
+        width: 95vw;
+    }
+
+    #infos-sec-inicio {
+        color: #cfcfcf;
+        width: 100%;
+        font-size: 1.1em;
+        margin: 1.2em 0 2.4em;
+    }
+
+    #link-saber-mais {
+        font-size: 1.2em;
+        padding: 1em 27vw;
+>>>>>>> Stashed changes
     }
 
     #section-apresentando {
         flex-direction: column-reverse;
-        margin: 6em auto 2em;
+        margin: 3em auto 2em;
         gap: 1em;
         width: 100%;
     }
@@ -42,10 +80,11 @@
     }
 
     #sec-apresentando-paragrafo {
-        font-size: 1.2em;
-        letter-spacing: .5px;
-        line-height: 1.2em;
-        margin: .8em 0 2em;
+        color: #cfcfcf;
+        margin: 1.2em 0;
+        font-weight: normal;
+        width: 100%;
+        font-size: 1.1em;
         text-align: justify;
     }
 
@@ -160,6 +199,7 @@
         text-align: center;
         height: auto;
         width: 100%;
+<<<<<<< Updated upstream
     }
     .nome {
         display: none;
@@ -173,6 +213,38 @@
         font-size: 1.4em;
     }
 
+=======
+        background-image: none;
+    }
+
+    #elementos-inicio {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    #foto-sec-inicio {
+        width: 90%;
+        max-width: 500px;
+        border-radius: 50%;
+        display: block;
+        margin: 2em auto;
+    }
+
+    #paragrafo-sec-inicio {
+        font-size: 1.9em;
+    }
+
+    #infos-sec-inicio {
+        color: #cfcfcf;
+        width: 100%;
+        font-size: 1.4em;
+    }
+
+>>>>>>> Stashed changes
     #link-saber-mais {
         font-size: 1.3em;
         padding: .8em 28vw;
@@ -180,7 +252,7 @@
 
     #section-apresentando {
         flex-direction: column-reverse;
-        margin: 7em auto 5em;
+        margin: 3em auto 5em;
         gap: 2em;
         text-align: center;
         width: 100%;
@@ -302,6 +374,7 @@
     #section-inicio {
         text-align: center;
         height: auto;
+<<<<<<< Updated upstream
     }
     .nome {
         /* display: none; */
@@ -316,13 +389,49 @@
         font-size: 1.4em;
     }
 
+=======
+        background-image: none;
+    }
+
+    #elementos-inicio {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    #foto-sec-inicio {
+        width: 90%;
+        max-width: 500px;
+        border-radius: 50%;
+        display: block;
+        margin: 2em auto;
+    }
+
+    #paragrafo-sec-inicio {
+        font-size: 1.9em;
+    }
+
+    #infos-sec-inicio {
+        color: #cfcfcf;
+        width: 100%;
+        font-size: 1.4em;
+    }
+
+>>>>>>> Stashed changes
     #link-saber-mais {
         font-size: 1.3em;
         padding: .8em 15vw;
     }
 
     #section-apresentando {
+<<<<<<< Updated upstream
         margin: 8em auto 5em;
+=======
+        margin: 5em auto;
+>>>>>>> Stashed changes
         gap: 2em;
         flex-direction: column-reverse;
     }
