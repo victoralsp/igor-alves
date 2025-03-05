@@ -8,25 +8,6 @@
         height: auto;
         width: 100%;
         margin: 2em 0;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    }
-    .nome {
-        display: none;
-    }
-
-    #foto-sec-inicio {
-        width: 300px;
-    }
-
-    #paragrafo-sec-inicio {
-        font-size: 1.4em;
-    }
-
-    #link-saber-mais {
-        font-size: 1.2em;
-        padding: 1em 28vw;
-=======
         background-image: none;
     }
 
@@ -39,20 +20,6 @@
         max-width: 100%;
     }
 
-=======
-        background-image: none;
-    }
-
-    #elementos-inicio {
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        max-width: 100%;
-    }
-
->>>>>>> Stashed changes
     #foto-sec-inicio {
         width: 90%;
         max-width: 500px;
@@ -76,10 +43,6 @@
     #link-saber-mais {
         font-size: 1.2em;
         padding: 1em 27vw;
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     }
 
     #section-apresentando {
@@ -217,24 +180,6 @@
         text-align: center;
         height: auto;
         width: 100%;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    }
-    .nome {
-        display: none;
-    }
-
-    #foto-sec-inicio {
-        width: 300px;
-    }
-
-    #paragrafo-sec-inicio {
-        font-size: 1.4em;
-    }
-
-=======
-=======
->>>>>>> Stashed changes
         background-image: none;
     }
 
@@ -265,10 +210,6 @@
         font-size: 1.4em;
     }
 
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     #link-saber-mais {
         font-size: 1.3em;
         padding: .8em 28vw;
@@ -398,25 +339,6 @@
     #section-inicio {
         text-align: center;
         height: auto;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    }
-    .nome {
-        /* display: none; */
-        font-size: 4.5em;
-    }
-
-    #foto-sec-inicio {
-        width: 300px;
-    }
-
-    #paragrafo-sec-inicio {
-        font-size: 1.4em;
-    }
-
-=======
-=======
->>>>>>> Stashed changes
         background-image: none;
     }
 
@@ -447,25 +369,13 @@
         font-size: 1.4em;
     }
 
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     #link-saber-mais {
         font-size: 1.3em;
         padding: .8em 15vw;
     }
 
     #section-apresentando {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        margin: 8em auto 5em;
-=======
         margin: 5em auto;
->>>>>>> Stashed changes
-=======
-        margin: 5em auto;
->>>>>>> Stashed changes
         gap: 2em;
         flex-direction: column-reverse;
     }
@@ -578,26 +488,24 @@
         top: 25px;
     }
 
-    #section-inicio {
-        text-align: center;
-    }
-    .nome {
-        /* display: none; */
-        font-size: 6em;
-    }
-
-    #foto-sec-inicio {
-        width: 350px;
-    }
-
-    #paragrafo-sec-inicio {
-        font-size: 1.5em;
-        max-width: 800px;
+    #elementos-inicio {
+        width: 90%;
+        max-width: 750px;
+        margin-right: 12em;
     }
 
     #link-saber-mais {
         font-size: 1.3em;
-        padding: .8em 10vw;
+        padding: .8em 7em;
+    }
+    
+    #paragrafo-sec-inicio {
+        color: var(--cor-secundária);
+        font-size: 2.5em;
+        width: 90%;
+        max-width: 1000px;
+        font-weight: bold;
+        letter-spacing: 1px;
     }
 
     #section-apresentando {

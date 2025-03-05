@@ -29,15 +29,6 @@
     font-weight: 700 !important;
 }
 
-canvas { 
-    display: block;
-}
-#particles-container { 
-    position: absolute; 
-    width: 100%; 
-    height: 100%;
-}
-
 #header {
     display: flex;
     justify-content: center;
@@ -45,7 +36,7 @@ canvas {
     padding: .5em;
     height: 73px;
     position: sticky;
-    box-shadow: 1px 1px 10px #3964c870;
+    box-shadow: 1px 1px 10px #ffffff21;
     width: 100%;
     right: 0;
     top: 0;
@@ -118,56 +109,27 @@ canvas {
 }
 
 #section-inicio {
-    text-align: center;
     height: calc(100vh - 73px);
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1800px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#nome-e-foto {
+    background-image: url(/imagens/bg-sec-inicio.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--bg-color);
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-<<<<<<< Updated upstream
-.nome {
-    color: var(--cor-secundária);
-    font-size: 8em;
-    text-transform: uppercase;
-    font-weight: bold;
-    z-index: 999;
-    transition: 1s ease !important;
-=======
 #container-elementos {
     max-width: 1800px;
     margin: 0 auto;
     overflow: hidden !important;
     padding: 0 0 4em; 
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }
 
-.nome:hover {
-    scale: 1.05;
-  }
-
-#foto-sec-inicio {
-    max-width: 450px;
+#elementos-inicio {
     width: 90%;
-}
-
-#foto-sec-inicio {
-    width: 90%;
-    max-width: 600px;
-    display: none;
+    max-width: 750px;
+    margin-right: 23em;
 }
 
 #foto-sec-inicio {
@@ -178,16 +140,19 @@ canvas {
 
 #paragrafo-sec-inicio {
     color: var(--cor-secundária);
-    font-size: 2em;
+    font-size: 2.5em;
     width: 90%;
     max-width: 1000px;
-    margin: .5em auto 2em;
     font-weight: bold;
     letter-spacing: 1px;
 }
 
-.paragrafo-colorido {
-    color: var(--cor-principal);
+#infos-sec-inicio {
+    color: #cfcfcf;
+    margin: 1.2em 0 2.2em;
+    font-weight: normal;
+    width: 60%;
+    font-size: 1.5em;
 }
 
 #link-saber-mais {
@@ -197,8 +162,8 @@ canvas {
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 5px;
-    font-size: 1.5em;
-    padding: 1em 10vw;
+    font-size: 1.3em;
+    padding: .8em 7em;
     box-shadow: 5px 5px 44px -12px rgba(255, 255, 255, 0.418);
     transition: .5s ease;
 }
@@ -528,7 +493,7 @@ a#link-whatsapp {
     color: var(--cor-secundária);
     text-align: center;
     padding: 1.5em;
-    box-shadow: 0px 0px 10px #3964c870;
+    box-shadow: 0px 0px 10px #ffffff21;
 }
 
 #footer p {
