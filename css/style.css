@@ -110,7 +110,7 @@
 
 #section-inicio {
     height: calc(100vh - 73px);
-    background-image: url(/imagens/bg-sec-inicio.jpg);
+    background-image: url(../imagens/bg-sec-inicio.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
