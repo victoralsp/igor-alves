@@ -9,6 +9,7 @@
         width: 100%;
         margin: 2em 0;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     }
     .nome {
         display: none;
@@ -38,6 +39,20 @@
         max-width: 100%;
     }
 
+=======
+        background-image: none;
+    }
+
+    #elementos-inicio {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+>>>>>>> Stashed changes
     #foto-sec-inicio {
         width: 90%;
         max-width: 500px;
@@ -61,6 +76,9 @@
     #link-saber-mais {
         font-size: 1.2em;
         padding: 1em 27vw;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 
@@ -200,6 +218,7 @@
         height: auto;
         width: 100%;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     }
     .nome {
         display: none;
@@ -214,6 +233,8 @@
     }
 
 =======
+=======
+>>>>>>> Stashed changes
         background-image: none;
     }
 
@@ -244,6 +265,9 @@
         font-size: 1.4em;
     }
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     #link-saber-mais {
         font-size: 1.3em;
@@ -375,6 +399,7 @@
         text-align: center;
         height: auto;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     }
     .nome {
         /* display: none; */
@@ -390,6 +415,8 @@
     }
 
 =======
+=======
+>>>>>>> Stashed changes
         background-image: none;
     }
 
@@ -420,6 +447,9 @@
         font-size: 1.4em;
     }
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     #link-saber-mais {
         font-size: 1.3em;
@@ -428,7 +458,11 @@
 
     #section-apresentando {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         margin: 8em auto 5em;
+=======
+        margin: 5em auto;
+>>>>>>> Stashed changes
 =======
         margin: 5em auto;
 >>>>>>> Stashed changes

@@ -149,6 +149,9 @@ canvas {
     margin: 0 auto;
     overflow: hidden !important;
     padding: 0 0 4em; 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
 
@@ -159,6 +162,12 @@ canvas {
 #foto-sec-inicio {
     max-width: 450px;
     width: 90%;
+}
+
+#foto-sec-inicio {
+    width: 90%;
+    max-width: 600px;
+    display: none;
 }
 
 #foto-sec-inicio {
