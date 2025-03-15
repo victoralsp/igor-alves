@@ -66,7 +66,7 @@
         font-weight: normal;
         width: 100%;
         font-size: 1.1em;
-        text-align: justify;
+        text-align: left;
     }
 
     #link-whatsapp {
@@ -83,40 +83,55 @@
     }
 
     #section-sobre-mim {
-        margin: 5em auto 0;
+        margin: 4em auto;
         width: 100%;
     }
 
     #foto-e-paragrafo-sobre-mim {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: 0 0 2em;
         gap: 1em;
     }
 
-    #subtitulo-sobre-mim {
-        font-size: 3em;
-        color: var(--cor-secundária);
+    #container-paragrafos {
+        width: 90%;
+        max-width: 1000px;
     }
 
     .paragrafo-sobre-mim {
-        text-align: justify;
+        letter-spacing: 1px;
+        line-height: 1.3em;
+        text-align: left;
+        font-size: 1.3em;
+    } 
+
+    .sub-paragrafo {
+        font-size: 1.1em;
+        margin-top: 1.5em;
+        color: #cfcfcf;
     }
 
-    #container-paragrafos {
-        padding: 2em 1em;
-        margin: 0 auto;
-        width: 100vw;
+    #linha-e-subtitulo {
+        display: flex;
+        align-items: center;
+        gap: 0 1em;
+    }
+
+    #linha {
+        width: 30px;
+    }
+
+    #subtitulo-sobre-mim {
+        font-size: 2.2em;
+        width: fit-content;
+        margin: .5em 0;
     }
 
     #foto-sobre-mim {
-        width: 300px;
+        width: 90%;
+        max-width: 300px;
     }
-
-    #paragrafo-evolucao {
-        color: var(--cor-principal);
-        font-size: 2em;
-    } 
 
     .swiper {
         height: fit-content;
@@ -235,7 +250,7 @@
         letter-spacing: .8px;
         line-height: 1.3em;
         margin: 1em 0 1.5em;
-        text-align: justify;
+        text-align: center;
     }
 
     #link-whatsapp {
@@ -257,26 +272,40 @@
 
     #foto-e-paragrafo-sobre-mim {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: 0 0 2em;
         gap: 1em;
+    }
+
+    #linha-e-subtitulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 2em;
+    }
+
+    #container-paragrafos {
+        width: 90%;
+        max-width: 1000px;
     }
 
     .paragrafo-sobre-mim {
         letter-spacing: 1px;
         line-height: 1.3em;
-        text-align: justify;
+        text-align: center;
+        font-size: 1.3em;
     } 
 
-    #container-paragrafos {
-        padding: 2em 1em;
-        margin: 0 auto;
-        width: 100vw;
+    .sub-paragrafo {
+        font-size: 1.1em;
+        margin-top: 1.5em;
+        color: #cfcfcf;
     }
 
     #subtitulo-sobre-mim {
-        font-size: 3em;
-        color: var(--cor-secundária);
+        font-size: 2.5em;
+        width: fit-content;
+        margin: 1em 0;
     }
 
     #foto-sobre-mim {
@@ -395,7 +424,7 @@
         letter-spacing: 1px;
         line-height: 1.3em;
         margin: .8em 0 2em;
-        text-align: justify;
+        text-align: center;
     }
 
 
@@ -419,24 +448,33 @@
 
     #foto-e-paragrafo-sobre-mim {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: 0 0 2em;
         gap: 1em;
+    }
+
+    #linha-e-subtitulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 2em;
+    }
+
+    #container-paragrafos {
+        width: 90%;
+        max-width: 1000px;
     }
 
     .paragrafo-sobre-mim {
         letter-spacing: 1px;
         line-height: 1.3em;
-        text-align: justify;
+        text-align: center;
     } 
-
-    #container-paragrafos {
-        width: 100%;
-    }
 
     #subtitulo-sobre-mim {
         font-size: 3em;
-        color: var(--cor-secundária);
+        width: fit-content;
+        margin: 1em 0;
     }
 
     #foto-sobre-mim {
@@ -491,7 +529,7 @@
     #elementos-inicio {
         width: 90%;
         max-width: 750px;
-        margin-right: 12em;
+        margin: 5em 12em 0 0;
     }
 
     #link-saber-mais {
@@ -544,19 +582,17 @@
 
     #foto-e-paragrafo-sobre-mim {
         display: flex;
-        margin: 0 0 2em;
-        gap: 1em;
+        margin: 2em auto 6em;
+        gap: 3em;
     }
 
     .paragrafo-sobre-mim {
         letter-spacing: 1px;
         line-height: 1.3em;
-        text-align: justify;
     } 
 
     #subtitulo-sobre-mim {
         font-size: 3em;
-        color: var(--cor-principal);
         margin-top: 1em 0;
     }
 

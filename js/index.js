@@ -75,25 +75,4 @@ perguntaFrequente.forEach((pergunta, index) => {
   })
 })
 
-// modo noturno 
-const btnLightMode = document.getElementById('btnLightMode')
-const body = document.getElementById('body')
-const textLightMode = document.querySelectorAll('.textLightMode')
-let lightModeAtivo = false
-
-btnLightMode.addEventListener('click', ()=> {
-  if (!lightModeAtivo) {
-    btnLightMode.innerHTML = '<i class="fa-regular fa-moon"></i>'
-    body.classList.add('active')
-    textLightMode.forEach((texto) => {
-    texto.classList.add('active')
-  })
-  } else {
-    btnLightMode.innerHTML = '<i class="fa-regular fa-sun"></i>'
-    body.classList.remove('active')
-    textLightMode.forEach((texto) => {
-    texto.classList.remove('active')
-  })}
-  lightModeAtivo = !lightModeAtivo
-})
 

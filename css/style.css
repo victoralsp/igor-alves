@@ -20,15 +20,6 @@
     overflow-x: hidden;
 }
 
-#body.active {
-    background-color: var(--cor-bg-light-mode);
-}
-
-.textLightMode.active {
-    color: var(--bg-color) !important;
-    font-weight: 700 !important;
-}
-
 #header {
     display: flex;
     justify-content: center;
@@ -100,13 +91,6 @@
     border: none;
 }
 
-#btnLightMode {
-    color: var(--cor-principal);
-    border: none;
-    background-color: transparent;
-    font-size: 1.3em;
-    cursor: pointer;
-}
 
 #section-inicio {
     height: calc(100vh - 73px);
@@ -122,7 +106,6 @@
 #container-elementos {
     max-width: 1800px;
     margin: 0 auto;
-    overflow: hidden !important;
     padding: 0 0 4em; 
 }
 
@@ -253,12 +236,19 @@ a#link-whatsapp {
     overflow: hidden !important;
 }
 
+#linha {
+    width: 50px;
+    height: 2px;
+    background-color: var(--cor-secundária);
+}
+
 #subtitulo-sobre-mim {
-    color: var(--cor-principal);
-    font-size: 3em;
-    text-align: center;
+    color: var(--cor-secundária);
+    font-size: 2.5em;
     text-transform: uppercase;
-    margin: 0 0 .2em;
+    margin: .5em auto .8em;
+    width: 90%;
+    text-shadow: 5px 5px 20px rgba(255, 255, 255, 0.185);
     z-index: 9999 !important;
 }
 
@@ -266,35 +256,44 @@ a#link-whatsapp {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 0 2em;
-    gap: 3em;
+    margin: 1em auto 6em;
+    gap: 5em;
 }
 
 #foto-sobre-mim {
     width: 90%;
-    max-width: 400px;
+    max-width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #cacaca1a;
+    margin-top: 1em;
+}
+
+#container-paragrafos {
+    width: 90%;
+    max-width: 600px;
 }
 
 .paragrafo-sobre-mim {
-    width: 90%;
-    max-width: 600px;
     color: var(--cor-secundária);
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 400;
     letter-spacing: .5px;
     line-height: 1.2em;
     overflow-x: hidden;
-    text-align: justify;
+    text-align: left;
     margin: 0 auto;
 }   
 
-#container-paragrafos {
-    background-color: var(--cor-principal);
-    padding: 1.8em;
-    border-radius: 5px;
-    margin-left: 1em;
-    width: 90%;
-    max-width: fit-content;
+#linha-e-subtitulo {
+    display: flex;
+    align-items: center;
+    gap: 0 2em;
+}
+
+.sub-paragrafo {
+    font-size: 1.2em;
+    margin-top: 1.5em;
+    color: #cfcfcf;
 }
 
 #paragrafo-evolucao {
