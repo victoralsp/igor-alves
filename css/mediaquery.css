@@ -7,8 +7,14 @@
         text-align: center;
         height: auto;
         width: 100%;
-        margin: 2em 0;
         background-image: none;
+    }
+
+    #bg-image-sec-inicio {
+        background-image: url('../imagens/bg-sec-inicio-small.jpg');
+        background-size: cover;
+        background-position: center right;
+        width: 100vw;
     }
 
     #elementos-inicio {
@@ -21,15 +27,15 @@
     }
 
     #foto-sec-inicio {
-        width: 90%;
+        width: 100%;
         max-width: 500px;
-        border-radius: 50%;
         display: block;
-        margin: 0em auto 1em;
+        margin: 2em auto 0;
     }
 
     #paragrafo-sec-inicio {
         font-size: 1.5em;
+        margin-top: 1em;
         width: 95vw;
     }
 
@@ -207,16 +213,24 @@
         max-width: 100%;
     }
 
+    #bg-image-sec-inicio {
+        background-image: url('../imagens/bg-sec-inicio-small.jpg');
+        background-size: cover;
+        background-position: center right;
+        width: 100vw;
+    }
+
     #foto-sec-inicio {
         width: 90%;
         max-width: 500px;
-        border-radius: 50%;
         display: block;
-        margin: 2em auto;
+        margin: 0 auto;
+        padding-top: 2em;
     }
 
     #paragrafo-sec-inicio {
         font-size: 1.9em;
+        margin-top: 1em;
     }
 
     #infos-sec-inicio {
@@ -313,7 +327,6 @@
     }
 
     #paragrafo-evolucao {
-        color: var(--cor-principal);
         font-size: 2.2em;
     } 
 
@@ -380,16 +393,24 @@
         max-width: 100%;
     }
 
+    #bg-image-sec-inicio {
+        background-image: url('../imagens/bg-sec-inicio-small.jpg');
+        background-size: cover;
+        background-position: center right;
+        width: 100vw;
+    }
+
     #foto-sec-inicio {
         width: 90%;
         max-width: 500px;
-        border-radius: 50%;
         display: block;
-        margin: 2em auto;
+        margin: 0 auto;
+        padding-top: 2em;
     }
 
     #paragrafo-sec-inicio {
         font-size: 1.9em;
+        margin-top: 1em;
     }
 
     #infos-sec-inicio {
@@ -482,7 +503,6 @@
     }
 
     #paragrafo-evolucao {
-        color: var(--cor-principal);
         font-size: 2.3em;
     } 
 
@@ -601,7 +621,6 @@
     }
 
     #paragrafo-evolucao {
-        color: var(--cor-secundária);
         font-size: 2.3em;
     } 
 

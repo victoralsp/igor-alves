@@ -17,7 +17,7 @@
 #body {
     background-color: var(--bg-color);
     font-family: 'Lato', sans-serif;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 #header {
@@ -112,7 +112,7 @@
 #elementos-inicio {
     width: 90%;
     max-width: 750px;
-    margin-right: 23em;
+    margin: 5em 20em 0 0;
 }
 
 #foto-sec-inicio {
@@ -123,7 +123,7 @@
 
 #paragrafo-sec-inicio {
     color: var(--cor-secundária);
-    font-size: 2.5em;
+    font-size: 2.7em;
     width: 90%;
     max-width: 1000px;
     font-weight: bold;
@@ -134,8 +134,8 @@
     color: #cfcfcf;
     margin: 1.2em 0 2.2em;
     font-weight: normal;
-    width: 60%;
-    font-size: 1.5em;
+    width: 80%;
+    font-size: 1.6em;
 }
 
 #link-saber-mais {
@@ -146,7 +146,7 @@
     font-weight: bold;
     border-radius: 5px;
     font-size: 1.3em;
-    padding: .8em 7em;
+    padding: .9em 9em;
     box-shadow: 5px 5px 44px -12px rgba(255, 255, 255, 0.418);
     transition: .5s ease;
 }
@@ -172,7 +172,7 @@
 }
 
 #sec-apresentando-subtitulo {
-    color: var(--cor-principal);
+    color: var(--cor-secundária);
     font-size: 4em;
     text-shadow: 5px 5px 20px rgba(255, 255, 255, 0.185);
 }
@@ -222,11 +222,11 @@ a#link-whatsapp {
     width: 170px;
     margin: .5em;
     border-radius: 100%;
-    box-shadow: 0px 0px 44px -12px #3964c8a8;
+    box-shadow: 0px 0px 44px -12px #9da6bda8;
 }
 
 .icones-sec-apresentando:hover {
-    box-shadow: 0px 0px 60px -12px #3964c8a8;
+    box-shadow: 0px 0px 60px -12px #c1c2c4a8;
 }
 
 #section-sobre-mim {
@@ -284,6 +284,10 @@ a#link-whatsapp {
     margin: 0 auto;
 }   
 
+.paragrafo-sobre-mim span {
+    color: var(--cor-principal);
+}
+
 #linha-e-subtitulo {
     display: flex;
     align-items: center;
@@ -326,6 +330,10 @@ a#link-whatsapp {
 
 .swiper-css-mode>.swiper-wrapper {
     border-radius: 10px;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    color: var(--cor-secundária) !important;
 }
 
 #section-beneficios {
