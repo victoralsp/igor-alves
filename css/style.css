@@ -27,7 +27,7 @@
     padding: .5em;
     height: 73px;
     position: sticky;
-    box-shadow: 1px 1px 10px #ffffff21;
+    box-shadow: 1px 1px 10px #ffffff0e;
     width: 100%;
     right: 0;
     top: 0;
@@ -94,7 +94,8 @@
 
 #section-inicio {
     height: calc(100vh - 73px);
-    background-image: url(../imagens/bg-sec-inicio.jpg);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.925) 0%, rgba(0, 0, 0, 0) 100%),
+    url(../imagens/bg-sec-inicio.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -221,11 +222,12 @@ a#link-whatsapp {
     width: 170px;
     margin: .5em;
     border-radius: 100%;
-    box-shadow: 0px 0px 44px -12px #9da6bda8;
+    box-shadow: 0px 0px 20px #9da6bd2d;
+    transition: 1s ease !important;
 }
 
 .icones-sec-apresentando:hover {
-    box-shadow: 0px 0px 60px -12px #c1c2c4a8;
+    rotate: -15deg;
 }
 
 #section-sobre-mim {

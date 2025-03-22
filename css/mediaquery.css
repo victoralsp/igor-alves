@@ -11,7 +11,8 @@
     }
 
     #bg-image-sec-inicio {
-        background-image: url('../imagens/bg-sec-inicio-small.jpg');
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.589) 0%, rgba(0, 0, 0, 0) 100%), 
+        url('../imagens/bg-sec-inicio-small.jpg');
         background-size: cover;
         background-position: center right;
         width: 100vw;
@@ -214,7 +215,8 @@
     }
 
     #bg-image-sec-inicio {
-        background-image: url('../imagens/bg-sec-inicio-small.jpg');
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.589) 0%, rgba(0, 0, 0, 0) 100%), 
+        url('../imagens/bg-sec-inicio-small.jpg');
         background-size: cover;
         background-position: center right;
         width: 100vw;
@@ -394,7 +396,8 @@
     }
 
     #bg-image-sec-inicio {
-        background-image: url('../imagens/bg-sec-inicio-small.jpg');
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.589) 0%, rgba(0, 0, 0, 0) 100%), 
+        url('../imagens/bg-sec-inicio-small.jpg');
         background-size: cover;
         background-position: center right;
         width: 100vw;
