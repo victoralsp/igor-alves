@@ -7,7 +7,7 @@
 }
 
 :root {
-    --bg-color: #1b1b1b;
+    --bg-color: #131313;
     --cor-principal: #3964c8;
     --cor-secundária: #fff;
     --cor-hover-botoes: #153788;
@@ -361,13 +361,13 @@ a#link-whatsapp {
 
 .cards-beneficios {
     color: var(--cor-secundária);
-    background-color: #272727;
+    background-color: #1b1b1b;
     flex: 1 1 300px; 
     padding: 1em 2.5em;
     border-top: 2px solid var(--cor-principal);
     border-bottom: 2px solid var(--cor-principal);
     border-radius: 5px;
-    /* box-shadow: 0px 0px 30px -12px rgba(255, 255, 255, 0.288); */
+    box-shadow: 0px 0px 30px -12px rgba(0, 0, 0, 0.288);
     transition: .8s ease !important;
 }
 

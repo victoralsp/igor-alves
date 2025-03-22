@@ -107,15 +107,13 @@
     }
 
     .paragrafo-sobre-mim {
-        letter-spacing: 1px;
-        line-height: 1.3em;
         text-align: left;
-        font-size: 1.3em;
+        font-size: 1.1em;
     } 
 
     .sub-paragrafo {
         font-size: 1.1em;
-        margin-top: 1.5em;
+        margin-top: 1em;
         color: #cfcfcf;
     }
 
