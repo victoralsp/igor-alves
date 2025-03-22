@@ -413,7 +413,7 @@ a#link-whatsapp {
 }
 
 #section-perguntas-frequentes {
-    margin: 6em auto;
+    margin: 6em auto 4em;
     width: 100%;
     max-width: 1800px;
 }
@@ -501,12 +501,20 @@ a#link-whatsapp {
 }
 
 #footer p {
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 #footer a {
     color: var(--cor-principal);
     text-decoration: none;
+    padding: .3em;
+}
+
+#footer a::before {
+    content: '<';
+}
+#footer a::after {
+    content: '>';
 }
 
 #footer a:hover {
